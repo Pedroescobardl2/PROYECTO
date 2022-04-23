@@ -1,0 +1,110 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+background-image: url("C:/Users/Pedro/Desktop/Proyecto pagina HTML/imagenes/bk.jpg");
+background-position: center;
+margin: 0;
+padding: 0;
+
+}
+.encabezado{
+
+}
+.encabezado__titulo{
+	color:black;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+
+}
+.encabezado__carnet{
+	color: black;
+	text-align: center;
+	
+}
+img{
+	width: 100%;
+		
+}
+.fot{
+	display: flex;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+.colum{
+	padding: 5px;
+	flex: 25%;	
+}
+.colum img{
+	margin-top: 5px;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #030215;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 40px;
+	display: block;
+	margin: 0;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+
+}
+.menu li a:hover{
+	background: #F35C00;
+}
+.encabezado{
+
+}
+.cuerpo__titulo{
+	background-color: black;
+	color: white;
+	text-align: center;
+	opacity: 90%;
+}
+#logo{
+	width: 18%;
+	opacity: 65%;
+
+}
+footer{
+	text-align: center;
+}
+#mariano{
+	text-decoration: overline;
+	color: white;
+	background: black;
+	opacity: 65%;
+	text-align: center;
+	display: block;
+}
+figure{
+	margin: 0;
+	display: inline-block;
+	position: relative;
+}
+figcaption{
+	color: white;
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background: rgba(0, 0, 0, 0.65);
+	width: 100%;
+	padding: 3%;
+
+}
+figure:hover figcaption{
+	display: block;
+}
